@@ -7,7 +7,7 @@ public class HelloVerticle extends AbstractVerticle {
   @Override
   public void start() throws Exception {
     vertx.createHttpServer().requestHandler(request -> {
-      request.response().end("Hello Java world-haaaaaaaa !");
+      request.response().end("Hello Java world-haaa !");
     }).listen(8080);
   }
 }
